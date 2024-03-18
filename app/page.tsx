@@ -1,7 +1,13 @@
+import { Camp, Features, GetApp, Guide, Hero } from "@/components";
+
 export default function Home() {
   return (
     <>
-      Hello, World!
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
     </>
   );
 }
